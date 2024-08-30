@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tarefa 02</title>
+</head>
+<body>
+  <form action="https://www.w3schools.com/action_page.php" target="_blank">
+
+    <div class="date">
+      <h2>Data</h2>
+
+		  <label for="date">Data</label><br>
+      <input type="date" id="date" name="date">
+    </div>
+
+    <div class="access">
+      <h2>Dados de Acesso</h2>
+
+      <label for="user">Usuário: </label>
+      <input type="text" id="user" name="user"><br>
+  
+      <label for="password">Password: </label>
+      <input type="password" id="password" name="password"><br>
+    </div>
+
+    <div class="personal">
+      <h2>Dados Pessoais</h2>
+
+      <label for="name">Nome: </label>
+      <input type="text" id="name" name="name"><br>
+  
+      <label for="address">Endereço: </label>
+      <input type="text" id="address" name="address"><br>
+  
+      <label for="number">Numero: </label>
+      <input type="text" id="number" name="number"><br>
+  
+      <label for="complement">Complemento: </label>
+      <input type="text" id="complement" name="complement"><br>
+      
+      <label for="city">Cidade: </label>
+      <select id="city" name="city"  placeholder="Selecione uma cidade">
+        <option value="sao_paulo">São Paulo</option>
+        <option value="campinas">Campinas</option>
+        <option value="santos">Santos</option>
+        <option value="sorocaba">Sorocaba</option>
+        <option value="sao_jose_dos_campos">São José dos Campos</option>
+        <option value="ribeirao_preto">Ribeirão Preto</option>
+        <option value="barueri">Barueri</option>
+        <option value="piracicaba">Piracicaba</option>
+        <option value="jundiai">Jundiaí</option>
+        <option value="taubate">Taubaté</option>
+      </select><br>
+
+      <label for="state">Estado: </label>
+      <input type="text" id="state" name="state" list="states"><br>
+      <datalist id="states" name="states">
+        <option>São Paulo</option>
+        <option>Alagoas</option>
+        <option>Amapá</option>
+        <option>Amazonas</option>
+        <option>Bahia</option>
+        <option>Ceará</option>
+        <option>Espírito Santo</option>
+        <option>Goiás</option>
+        <option>Maranhão</option>
+        <option>Mato Grosso</option>
+      </datalist>
+  
+      <label for="cep">CEP: </label>
+      <input type="number" id="cep" name="cep"><br>
+    </div>
+
+    <div class="gender">
+      <h2>Genêro</h2>
+
+      <input type="radio" id="masculino" name="gender" value="Masculino">
+		  <label for="masculino">Masculino</label><br>
+		  <input type="radio" id="feminino" name="gender" value="Feminino">
+		  <label for="feminino">Feminino</label><br>
+		  <input type="radio" id="nao_falar" name="gender" value="Prefiro não falar">
+		  <label for="nao_falar">Prefiro não falar</label>
+    </div>
+    
+    <div class="course">
+      <h2>Curso</h2>
+
+      <input type="checkbox" id="ads" name="ads" value="ADS">
+		  <label for="ads">ADS</label><br>
+		  <input type="checkbox" id="jogos" name="jogos" value="Jogos">
+		  <label for="jogos">Jogos</label><br>
+		  <input type="checkbox" id="gti" name="gti" value="Gestão de TI">
+		  <label for="gti">Gestão de TI</label><br>
+      <input type="checkbox" id="banco" name="banco" value="Banco de Dados">
+		  <label for="banco">Banco de Dados</label><br>
+    </div>
+
+    <div class="model">
+      <h2>Modelo</h2>
+
+      <input type="radio" id="presencial" name="model" value="presencial">
+		  <label for="presencial">Presencial</label><br>
+		  <input type="radio" id="ead" name="model" value="EAD">
+		  <label for="ead">EAD</label><br>
+		  <input type="radio" id="semi_presencial" name="model" value="Semi Presencial">
+		  <label for="semi_presencial">Semi Presencial</label>
+    </div>
+
+    <br>
+    
+    <button type="submit">Enviar</button>
+  </form>
+
+</body>  
+</html>
