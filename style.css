@@ -12,6 +12,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .title {
@@ -27,7 +28,7 @@ body {
   align-items: center;
 
   .div {
-      height: 500px;
+      height: 450px;
       width: 3px;
       border-radius: 3px;
       background-color: #e3e3e3;
@@ -60,9 +61,37 @@ body {
 	        text-decoration: none;
 	        margin-bottom: 10px;
         }
+
+        .link:hover {
+          color: #e3e3e3;
+        }
       }
     } 
   }
+}
+
+.provas {
+  position: fixed;
+  bottom:85%;
+  right:90%;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  color: #e3e3e3;
+  border: 2px solid #e3e3e3;
+  background-color: transparent;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: 0.3s;
+  color: #0e0e0e;
+  background-color: #e3e3e3;
+  font-weight: 600;
 }
 
 
