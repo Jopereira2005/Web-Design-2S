@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+section {
+  width: 520px;
+  height: 208px;
+  margin-top: 165px;
+
+
+  h1 {
+    font-family: 'Red Rose', sans-serif;
+    color: #091133;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+
+  p {
+    font-family: 'Roboto', sans-serif;
+    color:  #6F7CB2;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: justified;
+    text-align: justify;
+  }
+
+  .btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+    .btn {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      width: 190px;
+      height: 36px;
+    }
+  
+    .blue {
+      background-color: #111B47;
+      color: white;
+    }
+    
+    .white {
+      background-color: white;
+      border: #091133 solid 1px;
+      color: #111B47;
+      margin-left: 20px;
+    }
+  }
+}
+
+img {
+ width: 492px;
+ height: 1031px;
+ margin-top: 100px;
+}
