@@ -25,7 +25,6 @@ body {
 .sides {
   color: #e3e3e3;
   display: flex;
-  align-items: center;
   overflow-y: auto;
   width: 300px;
   height: 400px;
@@ -45,7 +44,9 @@ body {
   }
 
   .div {
-      height: 500px;
+    position: fixed;
+      left: 50%;
+      height: 400px;
       width: 3px;
       border-radius: 3px;
       background-color: #e3e3e3;
