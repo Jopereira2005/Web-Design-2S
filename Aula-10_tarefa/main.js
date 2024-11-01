@@ -51,6 +51,7 @@ const enviar = () => {
     body: JSON.stringify(data)
   })
   .then(_ => {
+    lista.innerHTML = '';
     carregar();
   })
 }
